@@ -18,7 +18,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     GLFWwindow *window = glfwCreateWindow(
-        800, 600, "Cookie Clicker", nullptr, nullptr
+        1280, 720, "Cookie Clicker", nullptr, nullptr
     );
 
     if (!window) {
